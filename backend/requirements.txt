@@ -1,0 +1,13 @@
+fastapi
+joblib
+numpy
+gunicorn
+uvloop
+uvicorn 
+pydantic
+httptools
+pandas
+scikit-learn == 1.2.2
+scipy
+six
+
