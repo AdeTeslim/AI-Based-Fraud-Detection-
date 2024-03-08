@@ -2,12 +2,14 @@ version: '3.8'
 services:
   frontend:
     build: ./frontend
+    image: 'ai-based-fraud-detection-frontend:latest' 
     ports:
       - "8501:8501"
     depends_on:
       - backend
   backend:
     build: ./backend
+    image: 'ai-based-fraud-detection-backend:latest' 
     ports:
       - "8000:8000"
     volumes:
