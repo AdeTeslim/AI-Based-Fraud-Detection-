@@ -1,3 +1,7 @@
+# SecurePay Online Payment Platform
+
+## Overview
+
 SecurePay is an advanced online payment platform designed to facilitate secure and efficient transactions. Leveraging cutting-edge machine learning algorithms for fraud detection, the platform scrutinizes each transaction for suspicious activity. This project consists of two main components: a frontend payment platform built with Streamlit and a backend fraud detection system developed using FastAPI.
 
 ## Project Structure
