@@ -5,47 +5,28 @@ import requests
 API_URL = 'http://backend:8000/predict/'
 
 
-# logo_path = 'path_to_your_logo_image.png'  
-# st.image(logo_path, width=200)  
-# st.title('SecurePay: Online Payment Platform')
+logo_path = 'images/img.jpeg'  
+st.image(logo_path, width=100)  
+st.title('SecurePay: Online Payment Platform')
 
 
 st.sidebar.header("SecurePay!")
 
-# team_members = {
-#     'Alice Johnson': 'path_to_alice_image.png',
-#     'Bob Smith': 'path_to_bob_image.png',
-#     'Charlie Davis': 'path_to_charlie_image.png',
-#     'Dana Lee': 'path_to_dana_image.png',
-#     'Evan Wright': 'path_to_evan_image.png',
-# }
-# for name, image_path in team_members.items():
-#     st.sidebar.image(image_path, caption=name, width=100) 
-
-# Team Introduction or Project Description in the main area
 st.write("""
 ## Welcome to SecurePay!
 
-SecurePay is your reliable partner for secure online transactions, leveraging advanced machine learning method for fraud detection algorithms to ensure your payments are safe and sound. Our team of dedicated professionals works tirelessly to provide you with a seamless payment experience.
+SecurePay is your reliable partner for secure online transactions, leveraging advanced machine learning method for fraud detection algorithms to ensure your payments are safe and sound. 
 
-This platform was developed as part of our final year project to showcase our skills in creating secure, efficient, and user-friendly online payment solutions. It integrates cutting-edge fraud detection technology to safeguard transactions against fraudulent activities.
+This platform was developed as part of our final year project to showcase our approach in creating secure, efficient, fraud detection payment solutions. It integrates cutting-edge fraud detection machine learning technology to safeguard transactions against fraudulent activities.
 
-**Why Choose SecurePay?**
-- Advanced fraud detection
-- User-friendly interface
-- Secure and fast transactions
-- Comprehensive support
-
-We're committed to your safety and satisfaction. Trust SecurePay for your online transactions today!
+The modelling Dataset was gotten from: https://www.kaggle.com/datasets/jainilcoder/online-payment-fraud-detection
 
 **Project Contributors:**
-- Alice Johnson
-- Bob Smith
-- Charlie Davis
-- Dana Lee
-- Evan Wright
+- Momodu Teslim Oluwaseun (20/2564)
+- Achugwo Stephanie Chidumebi (20/1464)
+- Nelson Davidson Oremiloluwa (19/0852)
+- Bailey Chidera Akinlolu (20/3244)
 
-This project is the culmination of our hard work, dedication, and collaboration. We hope SecurePay meets your online transaction needs effectively and securely.
 """)
 
 # Mapping of transaction types from string to their corresponding integer value
